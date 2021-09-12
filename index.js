@@ -9,5 +9,5 @@ app.use(bodyParser.json())
 
 const router = require('./routes')
 
-app.use(router)
+app.use('/api', router)
 app.listen(4000, () => {})
