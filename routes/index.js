@@ -9,7 +9,7 @@ router.post('/login', AuthController.gLogin)
 router.post('/register', AuthController.gRegister)
 
 router.get('/product', ProductController.index)
-router.post('/product', mid, ProductController.detail)
+router.post('/detail', mid, ProductController.detail)
 
 router.post('/addcart', mid, UserController.cart)
 

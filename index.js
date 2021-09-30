@@ -10,4 +10,6 @@ app.use(bodyParser.json())
 const router = require('./routes')
 
 app.use('/api', router)
-app.listen(4000, () => {})
+app.listen(4000, () => {
+  console.log('ready on port 4000')
+})
